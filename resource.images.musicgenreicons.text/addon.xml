@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.images.musicgenreicons.text" name="Music Genre Icons - Text" version="0.1.1" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="musicgenreicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Music Genre Icons with text</summary>
+		<description lang="en">Music Genre Icons with text</description>
+		<platform>all</platform>
+		<news>[B][COLOR=FFFFA500]v0.1.1[/COLOR][/B] - Release date: January 22, 2022[CR]
+• I unpacked the icons and removed the Textures file.
+• I added new genre icons.
+		</news>
+	</extension>
+</addon>
