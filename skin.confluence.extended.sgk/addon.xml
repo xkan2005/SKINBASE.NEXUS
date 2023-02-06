@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="skin.confluence.extended.sgk" version="1.0.5" name="Confluence Extended SGK" provider-name="SGK, Jezz_X, Team Kodi">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+		<import addon="script.image.resource.select" version="1.1.0"/>
+		<import addon="script.skinshortcuts" version="1.0.10"/>
+		<import addon="script.skin.helper.service" version="1.0.10"/>
+		<import addon="script.skin.helper.skinbackup" version="1.0.10"/>
+		<import addon="script.skin.helper.widgets" version="1.0.10"/>
+		<import addon="script.skin.helper.backgrounds" version="1.0.10"/>
+		<import addon="script.skin.helper.colorpicker" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Confluence Extended Skin</summary>
+	    <description lang="de_DE">Confluence Extended Shortcuts ist der Standardskin ab Kodi 14.0. Er ist eine Kombination mehrerer unterschiedlicher Skin-Konzepte und versucht dabei, die besten Ideen zu kombinieren, um einen einfachen Einstieg für neue Kodi-Nutzer zu ermöglichen.</description>
+	    <platform>all</platform>
+		<license>GNU General Public License version 2</license>
+		<forum>https://www.facebook.com/groups/kodiunlimited</forum>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
