@@ -1,0 +1,9 @@
+VERSION 1.0.0 - RELEASE DATE 12/22/2021
+
+ADDITIONS:
+• I added Canadian MPAA flags for Movies and TV Shows. Thanks to Juan Mortyme for the request and the info!
+
+FIXES:
+• I updated the code for displaying the MPAA flags while playing a video.
+
+-----------------------------------------
