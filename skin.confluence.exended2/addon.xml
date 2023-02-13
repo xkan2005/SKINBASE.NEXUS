@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.confluence.exended2" version="4.6.42" name="Confluence Exended 2.0" provider-name="SKINBASE,Jezz_X, Team Kodi">
+<addon id="skin.confluence.exended2" version="4.6.43" name="Confluence Exended 2.0" provider-name="SKINBASE,Jezz_X, Team Kodi">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
 		<import addon="script.skinshortcuts" version="1.0.10" />
