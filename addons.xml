@@ -1010,6 +1010,20 @@ provider-name="jurialmunkey">
 	</extension>
 </addon>
 
+<addon id="resource.images.skinbackgrounds.confluence exended 2.0" name="Skin Backgrounds - Confluence Exended" version="1.0.1" provider-name="SKINBASE">
+	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Skin backgrounds Pack - Clear Design</summary>
+		<description lang="en">Skin backgrounds Pack - Clear Design</description>
+		<summary lang="he">חבילת רקעים - סגנון נקי</summary>
+		<description lang="he">חבילת רקעים - סגנון נקי</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="resource.images.skinthemes.aeonmq" name="Skin Themes - Aeon MQ" version="0.0.2" provider-name="MarcosQui">
 	<extension point="kodi.resource.images" compile="false" type="skinthemes" />
 	<requires>
@@ -6088,13 +6102,14 @@ Support for New Favourites Browser window
 	</extension>
 </addon>
 
-<addon id="skin.confluence.exended2" version="4.6.48" name="Confluence Exended 2.0" provider-name="SKINBASE,Jezz_X, Team Kodi">
+<addon id="skin.confluence.exended2" version="4.6.50" name="Confluence Exended 2.0" provider-name="SKINBASE,Jezz_X, Team Kodi">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
 		<import addon="script.skinshortcuts" version="1.0.10" />
 		<import addon="script.image.resource.select" version="3.0.0"/>
+		<import addon="resource.images.studios.coloured" version="0.0.10"/>
 	</requires>
-	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="true" effectslowdown="1.0">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
