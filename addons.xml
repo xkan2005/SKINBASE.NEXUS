@@ -5084,7 +5084,7 @@ I had this disabled because i want to be able to jump to the most right object b
 	</extension>
 </addon>
 
-<addon id="skin.aeon.nox.5.mod" version="8.0.5" name="Aeon Nox 5 MoD" provider-name="SKINBASE,BigNoid">
+<addon id="skin.aeon.nox.5.mod" version="8.0.8" name="Aeon Nox 5 MoD" provider-name="SKINBASE,BigNoid">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
 		<import addon="script.skinshortcuts" version="1.0.10" />
@@ -5092,7 +5092,7 @@ I had this disabled because i want to be able to jump to the most right object b
 		<import addon="resource.images.studios.coloured" version="0.0.1" />
 		<import addon="resource.images.recordlabels.white" version="0.0.1" />
 	</requires>
-	<extension point="xbmc.gui.skin" debugging="true" effectslowdown="0.75">
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="1080i" />
 	</extension>
